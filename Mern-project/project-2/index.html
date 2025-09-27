@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project-2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-section">
+      <h1 class="from-header">Student Registration from</h1>
+      <hr />
+      <h2>
+        Please enter relevent information
+        <span
+          >..............................................................................................................................................</span
+        >
+      </h2>
+      <form action="">
+        <div class="section">
+        <form action="">
+          <div class="left-side">
+          <h3>Mandatory Field*</h3>
+          <label for="district"
+            >District (Institute where you want to do your course)*</label
+          ><br />
+          <select name="district" class="full-width" id="district" required>
+            <option value="">--Select One--</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chattogram">Chattogram</option>
+            <option value="Barishal">Barishal</option>
+            <option value="Sylhet">Sylhet</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Rangpur">Rangpur</option></select
+          ><br />
+          <label for="Course">Course*</label><br />
+          <select name="Course" id="Course" class="full-width" required>
+            <option value="">--Select ONe--</option>
+            <option value="Computer architecture">Computer architecture</option>
+            <option value="Operating systems">Operating systems</option>
+            <option value="Artificial intelligence">
+              Artificial intelligence
+            </option>
+            <option value="Machine learning">Machine learning</option>
+            <option value="Data science">Data science</option></select
+          ><br />
+
+          <label for="students">Student Name*</label><br />
+          <input type="text" id="students" class="full-input" required /><br />
+          <label for="father">Father Name*</label><br />
+          <input type="text" id="father" class="full-input" required /><br />
+          <label for="mother">Mother Name*</label><br />
+          <input type="text" id="mother" class="full-input" required /><br />
+
+          <fieldset>
+            <legend>Date of Birth*</legend>
+            <div class="field-labal">
+              <label for="day">Day*:</label>
+              <label for="month">Month*:</label>
+              <label for="year">Year*:</label><br />
+            </div>
+            <div>
+              <select name="day" id="day" class="field-input" required>
+                <option value="">select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+              <select name="month" id="month" class="field-input" required>
+                <option value="">select</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+              </select>
+              <select name="year" id="year" class="field-input" required>
+                <option value="">select</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <label for="gender">Gender*</label>
+          <input type="radio" id="gender" name="gender" required /><span
+            class="radio-span"
+            >Male</span
+          >
+          <input type="radio" name="gender" id="gender" required /><span
+            class="radio-span"
+            >Fmale</span
+          >
+          <br />
+          <label for="Physically">Physically Handicapped*</label>
+          <input type="radio" id="Physically" name="Physically"  required/><span
+            class="radio-span"
+            >Yes</span
+          >
+          <input type="radio" name="Physically" id="Physically" required/><span
+            class="radio-span"
+            >No</span
+          >
+          <br />
+
+          <label for="email">Email*:</label><br />
+          <input type="email" id="email" class="full-input" required><br />
+          (e.g:example@gmail.com) <br />
+          <label for="phone">Phone(Must be 11 Digits)*</label><br />
+          <input
+            type="number"
+            id="phone"
+            minlength="11"
+            maxlength="11"
+            class="full-input"
+            required
+          /><br />
+          (e.g.01745632451)
+        </div>
+        <div class="right-side">
+          <label for="type">Identification Type*</label><br />
+          <select name="type" id="type" class="full-width" required>
+            <option value="">Select One</option>
+            <option value="NID">NID</option>
+            <option value="NAA">NAA</option></select
+          ><br />
+          <span>
+            Identification No.(Must be 10 digits for new NID or 17 digits for
+            old IND.If your National ID is 13 digits,then please add your birth
+            year with the ID as prefix.Example:1980xxxxxxxxx)* </span
+          ><br />
+          <input type="number" id="type" class="full-input" required /><br />
+          <label for="home">Home District*</label><br />
+          <select name="home" id="home" class="full-width" required>
+            <option value="">--Select One--</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chattogram">Chattogram</option>
+            <option value="Barishal">Barishal</option>
+            <option value="Sylhet">Sylhet</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Rangpur">Rangpur</option></select
+          ><br />
+
+          <label for="upazila">Upazila*</label><br />
+          <select name="upazila" id="upazila" class="full-width" required>
+            <option value="">Select One</option>
+            <option value="Adamdigh ">Adamdighi</option>
+            <option value="Bogura Sadar">Bogura Sadar</option>
+            <option value="Dhunat ">Dhunat</option>
+            <option value="Dhupchanchia ">Dhupchanchia</option>
+            <option value="Sariakandi ">Sariakandi</option>
+            <option value="Nandigram ">Nandigram</option>
+            <option value="Godagari">Godagari</option></select
+          ><br />
+
+          <label for="post-office">Post Office*</label><br />
+          <input
+            type="text"
+            id="post-office"
+            class="full-input"
+            required
+          /><br />
+
+          <label for="educational"
+            >Educational Qualification*(Higher Level)</label
+          ><br />
+          <select
+            name="educational"
+            id="educational"
+            class="full-width"
+            required
+          >
+            <option value="">--Select One--</option>
+            <option value="HSC">HSC</option>
+            <option value="SSC">SSC</option></select
+          ><br />
+
+          <label for="computer">Have any computer?*</label>
+          <input type="radio" id="computer" name="computer" required/><span
+            class="radio-span"
+            >Yes</span
+          >
+          <input type="radio" name="computer" id="computer" required/><span
+            class="radio-span"
+            >No</span
+          >
+          <br />
+
+          <label for="file">Photograph*</label><br />
+          <input type="file" id="file" required/>
+          <p>(File type must be jpg or jpeg or png.Maximum file size 2 mb.)</p>
+
+          <label for="signature">Signature*</label><br />
+          <input type="file" id="signature" required/>
+          <p>(File type must be jpg or jpeg or png.Maximum file size 2 mb.)</p>
+
+          <button type="submit">Submit Data</button>
+        </div>
+      </div>
+      </form>
+    </div>
+  </body>
+</html>
