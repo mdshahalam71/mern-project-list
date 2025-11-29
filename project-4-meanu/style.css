@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.first {
+  width: 100%;
+  height: 500px;
+  background: #33333319;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+.nav-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px #33333331;
+  padding: 10px 60px;
+  margin-top: -20px;
+}
+.search i {
+  cursor: pointer;
+  font-size: 30px;
+}
+.nav-1 ul {
+  display: flex;
+  justify-content: center;
+}
+.nav-1 ul li {
+  list-style: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  background-color: #a52a2ac9;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.nav-1 ul li:hover {
+  background: #a52a2af8;
+  transition: all 0.6s;
+  border-radius: 10px;
+  color: wheat;
+  font-weight: 700;
+}
+/* nav-2****************** */
+.second {
+  width: 100%;
+  height: 500px;
+  color: whitesmoke;
+  background: #3c3838;
+  margin-bottom: 40px;
+}
+.second .logo-2 {
+  color: #cdcd1f;
+  font-weight: 900;
+}
+.nav-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+.nav-2 ul {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(245, 245, 245, 0.176);
+  border-top: none;
+  border-radius: 20px;
+  padding-right: 40px;
+}
+.nav-2 ul li {
+  list-style: none;
+  padding: 10px 40px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.nav-2 ul li:hover {
+  color: black;
+  transition: all 0.5s;
+  font-weight: 900;
+  text-shadow: 0 0 3px #f7f7eb;
+}
+.search-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  background: #cdcd1f;
+  color: black;
+  font-weight: 900;
+  padding: 5px;
+  border-radius: 25px;
+}
+.search-2:hover {
+  background: #9f9f17;
+  transition: all 0.5s;
+}
+.search-icon-2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: black;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  margin-left: 9px;
+  cursor: pointer;
+}
+
+/* nave-3****************** */
+.third {
+  width: 1200px;
+  height: 500px;
+  background: #33333319;
+  margin-bottom: 40px;
+}
+.nav-3 {
+  background: #33333319;
+  width: 200px;
+  height: 100%;
+}
+.nav-3 ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.nav-3 ul li {
+  list-style: none;
+  font-size: 30px;
+  padding: 10px 20px;
+}
+.search-icon {
+  border-bottom: 1px solid #3333334f;
+}
+.nav-3 ul li i {
+  padding: 5px;
+  margin-right: 5px;
+}
+.nav-3 ul li:hover {
+  background: rgb(3, 103, 3);
+  color: whitesmoke;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* section fourth here************** */
+.fourth {
+  width: 100%;
+  height: 500px;
+  background: #333;
+  color: rgb(162, 151, 151);
+}
+.fourth-header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #0000003b;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.723);
+}
+.fourth-logo i {
+  margin-left: 50px;
+  font-size: 50px;
+  box-shadow: 3px 5px 6px rgb(0, 0, 0);
+}
+.fourth-logo-2 {
+  margin-right: 240px;
+}
+.fa-sun {
+  font-size: 20px;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
+  margin-right: 10px;
+}
+.fa-sun:hover {
+  color: aliceblue;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.fourth-side-bar {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.fourth-text {
+  width: 55%;
+  height: 85%;
+  margin: auto auto;
+}
+.fourth-text > .text-1 {
+  width: 100%;
+  height: 90px;
+  margin: 30px 0;
+  border-radius: 10px;
+   background-image: linear-gradient(to right ,#504c4c,#504c4c,#504c4cd0,#ddff002d,#ddff0069);
+  box-shadow: 1px 1px 5px #b19e9e;
+   
+}
+.fourth-text > .text-2 {
+  width: 60%;
+  height: 90px;
+  margin: 30px 0;
+  border-radius: 10px;
+  /* background: #504c4c; */
+   background-image: linear-gradient(to right ,#504c4c,#504c4c,#504c4cd0,#ddff002d,#ddff0069);
+  box-shadow: 1px 1px 5px #b19e9e;
+}
+.fourth-side-bar ul {
+  width: 13%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.fourth-side-bar ul li {
+  list-style: none;
+  padding: 18px 0;
+  border-bottom: 3px solid #0000003b;
+}
+.fourth-side-bar ul li i {
+  font-size: 20px;
+  box-shadow: 3px 5px 6px rgb(0, 0, 0);
+}
+.fourth-side-bar ul li i:hover {
+  color: aliceblue;
+  cursor: pointer;
+  transition: all 0.5s;
+}
